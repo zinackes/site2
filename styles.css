@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    position: absolute;
+    min-height: 70px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 992px){
+    .header-nav .header-list.responsive a:not(:first-child){
+        display: none;
+    }
+    .header li a.icon{
+        float: right;
+        display: block;
+    }
+    
+    .header{
+        margin-top: 0 !important;
+        height: 100px;
+    }
+    .container{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .header-border{
+        border-radius: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .header-list.responsive{
+        position: relative;
+    }
+    .header-list.responsive .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .header-list.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.icon{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .description{
+        padding-left: 230px !important;
+        padding-right: 230px !important;
+    }
+}
+@media screen and (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+    .header-list-content{
+        margin-left: 25px !important;
+    }
+    .description{
+        padding-left: 300px !important;
+        padding-right: 300px !important;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 1140px;
+    }
+    .header-list-content{
+        margin-left: 30px !important;
+    }
+    .description{
+        padding-left: 350px !important;
+        padding-right: 350px !important;
+    }
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+.header-border{
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px 30px !important;
+}
+.header-nav{
+    display: flex;
+}
+.header-logo{
+    margin-right: auto;
+}
+.header-list{
+    list-style-type: none;
+    display: flex;
+    margin-top: 22px;
+}
+.header-list-content{
+    margin-left: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 18px;
+}
+
+.link:hover{
+    border-radius: 18px;
+    padding: 8px 15px !important;
+    background-color: #7453fc;
+    transition: all .3s ease 0s;
+}
+
+
+
+
+.main-banner{
+    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/banner-bg.jpg');
+    min-height: 911px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.content{
+    position: absolute;
+    margin-top: 270px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-right: 100px;
+}
