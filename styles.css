@@ -52,6 +52,9 @@ body{
         display: block;
         text-align: left;
     }
+    .header-list.responsive a:first-child{
+        padding-top: 110px !important;
+    }
 }
 
 .icon{
