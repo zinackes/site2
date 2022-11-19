@@ -14,10 +14,10 @@ body{
 
 
 @media screen and (max-width: 992px){
-    .header-nav .header-list.responsive a:not(:first-child){
+    .header-list .link{
         display: none;
     }
-    .header li a.icon{
+    .header a.icon{
         float: right;
         display: block;
     }
@@ -40,6 +40,7 @@ body{
 @media screen and (max-width: 992px){
     .header-list.responsive{
         position: relative;
+        padding-right: 40%;
     }
     .header-list.responsive .icon{
         position: absolute;
@@ -103,14 +104,15 @@ body{
     display: flex;
 }
 .header-logo{
+    max-height: 100px;
     margin-right: auto;
 }
 .header-list{
     list-style-type: none;
-    display: flex;
-    margin-top: 22px;
+    display: block;
+    margin-top: 24px;
 }
-.header-list-content{
+.header-list a{
     margin-left: 15px;
     line-height: 24px;
     font-weight: 500;
