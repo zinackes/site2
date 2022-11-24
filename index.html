@@ -15,12 +15,16 @@
                             <img src="https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/logo.png">
                         </a>
                         <div class="header-list" id="myheader">
-                            <a href="" class="link">Accueil</a>
-                            <a href="" class="link">Explorer</a>
-                            <a href="" class="link">Créateur</a>
-                            <a href="" class="link">Profile</a>
+                            <div class="menu-padding">
+                                <div id="menu" class="menu">
+                                    <a href="" class="link active">Accueil</a>
+                                    <a href="" class="link">Explorer</a>
+                                    <a href="" class="link">Créateur</a>
+                                    <a href="" class="link">Profile</a>
+                                </div>
+                            </div>
                             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                <i class="fa-solid fa-bars-staggered"></i>
+                            <i class="fa-solid fa-bars-staggered"></i>
                             </a>
                         </div>
                     </div>
@@ -33,9 +37,39 @@
             <div class="content">
                 <h2 class="title">Liberty NFT Market</h2>
                 <h6 class="description">Liberty NFt Market est un site très cool et presente un design très professionel pour vos nft. Ce site est entierement sécurisé et vous permet de promouvoir, de vendre ou de stocker les meilleurs nft.</h6>
+                <div class="content-button">
+                    <div class="content-button-radius">
+                        <a href="" class="content-link">Explorer Top NFT</a>
+                        <a href="" class="content-link-two">Regarder nos vidéos</a>
+                    </div>
+                </div>
             </div>
         </div>
 
+        
+        <div class="second-banner">
+            <div class="second-banner-content">
+                <div class="container">
+                    <div class="second-banner-separator"></div>
+                    <div class="second-banner-title"><h2>Parcours Parmis Nos <span class="violet">Catégories</span> Ici.</h2></div>
+                    <div class="second-banner-categorie">
+                        <div class="second-banner-categorie-block">
+                            <div class="second-banner-categorie-image">
+                                <img src="https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/icon-01.png">
+                            </div>
+                            <div class="second-banner-categorie-text">
+                                <h4>Blockchain</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
         <script>
             function myFunction() {
               var x = document.getElementById("myheader");
@@ -43,6 +77,12 @@
                 x.className += " responsive";
               } else {
                 x.className = "header-list";
+              }
+              var y = document.getElementById("menu");
+              if (y.className === "menu") {
+                y.className += " responsive";
+              } else {
+                y.className = "menu";
               }
             }
         </script>
